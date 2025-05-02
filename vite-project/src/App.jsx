@@ -144,12 +144,16 @@ const App = () => {
             <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-gray-300">
               Explore the mysteries of black holes through interactive visualizations and real astronomical data
             </p>
-            <div className="animate-bounce absolute bottom-10 left-1/2 transform -translate-x-1/2">
-              <ArrowDown size={32} />
-              <span className="block text-sm mt-2">Scroll to begin</span>
-            </div>
           </div>
         </section>
+
+          {/* arrow */}
+        <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 z-10">
+          <div className="animate-bounce text-center">
+            <ArrowDown size={32} />
+            <span className="block text-sm mt-2">Scroll to begin</span>
+          </div>
+        </div>
 
         <div 
           className="fixed bottom-8 right-8 bg-gray-900 bg-opacity-80 backdrop-blur-md rounded-lg p-4 w-80 z-20 transition-all duration-300"
