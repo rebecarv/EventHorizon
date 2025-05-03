@@ -25,7 +25,7 @@ const Home = () => {
       const x = Math.random() * 100;
       const y = Math.random() * 100;
       const size = Math.random() * 2 + 1;
-      const opacity = Math.random() * 0.  + 0.2;
+      const opacity = Math.random() * 0.8  + 0.2;
 
       const centerX = 50;
       const centerY = 50;
@@ -107,32 +107,8 @@ const Home = () => {
           }}
         />
       </div>
-
-      <div className="fixed top-0 left-0 right-0 z-10 bg-black bg-opacity-50 backdrop-blur-sm">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold">Event Horizon</div>
-          <div className="flex space-x-6">
-            <Link to="/explore" className="flex items-center space-x-2">
-              <Star size={18} />
-              <span>Explore</span>
-            </Link>
-            <Link to="/scale" className="flex items-center space-x-2">
-              <Database size={18} />
-              <span>Scale</span>
-            </Link>
-            <Link to="/gravitational-lenser" className="flex items-center space-x-2">
-              <Camera size={18} />
-              <span>Gravitational Lenser</span>
-            </Link>
-          </div>
-          <button className="md:hidden">
-            <Menu size={24} />
-          </button>
-        </div>
-      </div>
-
       <div className="relative">
-        <section className="min-h-screen flex items-center justify-center">
+        <section className="min-h-screen flex items-center justify-center -mt-16">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Journey to the <br />
