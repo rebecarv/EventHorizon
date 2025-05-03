@@ -301,7 +301,8 @@ const GravitationalLensing = () => {
   return (
     <div className="min-h-screen bg-black text-white p-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-6">Gravitational Lensing Visualizer</h2>
+        <h2 className="text-3xl font-bold mb-2">Gravitational Lensing Visualizer</h2>
+        <p className="text-gray-300 mb-6">Explore how massive objects like black holes bend light through the fabric of spacetime, creating cosmic magnifying lenses.</p>
         
         <div className="bg-gray-900 rounded-xl overflow-hidden shadow-lg">
           {/* Canvas container */}
@@ -539,15 +540,21 @@ const GravitationalLensing = () => {
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mr-2"></div>
+                  <a href="https://science.nasa.gov/mission/webb/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                   NASA's Webb Telescope: Lensing Studies
+                  </a>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mr-2"></div>
+                  <a href="https://esahubble.org/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                   ESA Hubble Space Telescope: Lensing Gallery
+                  </a>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mr-2"></div>
+                  <a href="https://phet.colorado.edu/en/simulations/gravity-force-lab" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                   Interactive Simulations: PHET Gravity Lab
+                  </a>
                 </li>
               </ul>
             </div>
@@ -567,12 +574,7 @@ const GravitationalLensing = () => {
             </div>
           </div>
         </div>
-        
-        {/* Footer */}
-        <div className="mt-8 text-center text-gray-500 text-sm">
-          <p>Interactive Gravitational Lensing Visualizer - Created for educational purposes</p>
-          <p className="mt-1">Based on principles from Einstein's Theory of General Relativity</p>
-        </div>
+
       </div>
     </div>
   );
