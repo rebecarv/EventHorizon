@@ -8,7 +8,7 @@ import GravitationalLenser from "./pages/gravitational-lenser";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/EventHorizon'>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
