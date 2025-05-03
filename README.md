@@ -42,7 +42,7 @@ Event Horizon is an immersive web experience that creates a captivating journey 
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/black-hole-explorer.git
+   git clone https://github.com/yourusername/EventHorizon.git
    cd black-hole-explorer
    ```
 
@@ -60,7 +60,7 @@ Event Horizon is an immersive web experience that creates a captivating journey 
 
 ## 🚢 Deployment
 
-The site is configured for easy deployment to GitHub Pages: 
+The site is configured for easy deployment to GitHub Pages
 
 
 ## 🤝 Contributing
