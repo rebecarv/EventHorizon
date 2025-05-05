@@ -34,9 +34,6 @@ Event Horizon is an immersive web experience that creates a captivating journey 
 - **[React](https://react.dev/)** - UI component library
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
 - **[Lucide React](https://lucide.dev/)** - Beautiful, consistent icons
-- **[Three.js](https://threejs.org/)** - 3D visualization library for black hole and star rendering
-- **[React Three Fiber](https://docs.pmnd.rs/react-three-fiber/)** - React renderer for Three.js
-- **[Framer Motion](https://www.framer.com/motion/)** - Animation library for smooth UI transitions
 
 ### Installation
 
