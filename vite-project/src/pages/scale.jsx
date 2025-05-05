@@ -186,7 +186,7 @@ const Scale = () => {
               
               {/* Information popup */}
               {showInfo !== null && (
-                <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-gray-800 bg-opacity-90 backdrop-blur-sm p-4 rounded-lg shadow-lg w-80">
+                <div className="absolute top-8 left-1/2 transform -translate-x-1/2 bg-gray-800 bg-opacity-90 backdrop-blur-sm p-4 rounded-lg shadow-lg w-80">
                   <h3 className="text-lg font-semibold mb-2">{objects[showInfo].name}</h3>
                   <p className="text-sm text-gray-300">{objects[showInfo].description}</p>
                   <button 
